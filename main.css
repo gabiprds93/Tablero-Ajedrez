@@ -1,0 +1,9 @@
+table
+{
+    width: 500px;
+    height: 500px;
+}
+td.pintado
+{
+    background: black;
+}
