@@ -153,12 +153,14 @@ btnAgregar.onclick = function()
     }
     else
     {
-        crearCeldas(inputLados);        
+        crearCeldas(inputLados);
+        M = undefined;
     }  
 }
 
 btnSolucion.onclick = function()
 {
+    num = 1;
     var inputLados = parseInt(document.getElementById("inputLados").value);
     crearCeldas(inputLados);
     var celdas = document.getElementsByTagName("td");
